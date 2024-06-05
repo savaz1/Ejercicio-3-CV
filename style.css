@@ -1,0 +1,52 @@
+
+
+/*selector de tipo etiqueta*/
+body{
+    background-color: azure;
+    font-size: 19px;
+    color: brown;
+    font-family: "Abel", sans-serif;
+    margin: 0 ;
+
+    padding: 0;
+    text-align: center; /* Centra el texto en todo el cuerpo */
+}
+
+h1{
+    color: brown;
+}
+
+h2{
+    color: blue;
+}
+/*selector de tipo id*/
+#titulo-cert{
+    color: rgb(165, 144, 185);
+}
+/*selector de tipo clase*/
+
+.estilo-seccion{
+    background-color: rgb(238, 238, 231);
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px;
+    border: 5px solid black;
+}
+
+/*Selector avanzado*/
+.estilo-seccion ul li {
+    list-style: none;
+}
+/*Cambiar tamaño a imagenes*/
+img{
+    
+    width: 300px;
+    height: 300px;
+}
+
+ol, ul {
+    list-style: none; /* Eliminar viñetas */
+    padding: 0; /* Eliminar relleno por defecto */
+    margin: 0; /* Eliminar margen por defecto */
+}
